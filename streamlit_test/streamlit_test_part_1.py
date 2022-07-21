@@ -1,13 +1,8 @@
-import urllib3
-import json
-import os
-from dotenv import load_dotenv
-
 import pandas as pd
 import streamlit as st
-import matplotlib.pyplot as plt
 import numpy as np
 import plotly.express as px
+
 x = np.array(list(range(10)))
 y = x**2
 
